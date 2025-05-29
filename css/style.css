@@ -16,6 +16,9 @@ body{
     align-items: center;
     height: 100vh;
     background-image: url(../images/bg.jpeg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
 
 }.container{
     border: 2px solid black;
@@ -25,7 +28,7 @@ body{
     height: 450px;
     position:relative;
 
-    background-color: rgba(145, 149, 225, 0.68);
+    background-color: rgba(197, 199, 237, 0.93);
     box-shadow: 0 0 10px 2px #000000;
     backdrop-filter: blur(10px);
  }#login-form{
